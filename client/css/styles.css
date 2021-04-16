@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .form-input{
+    display: flex;
+    width: 300px;
+    /* border: 0px black; */
+    margin: 2px 0px 13px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-input .input-element{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}

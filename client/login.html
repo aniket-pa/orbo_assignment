@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/styles.css" rel="stylesheet" >
+    <title>Login Page</title>
+</head>
+<body>
+        <div class="container">
+            <h1> Login To the system</h1>
+            
+            <form id="login-form">
+                <div class="form-input">
+                    <label > Email: </label>
+                    <input name="email" type="email" required> <br>
+                </div>
+                <div class="form-input">
+                    <label > Password:</label>
+                    <input name="pass" type="password" required> <br>
+                </div>
+
+                <input type="submit" value="login">
+
+                <span id="linkElement" style="visibility: hidden;">
+                    <button id="routeLink"  > Click here to entered Home Page </button>
+                </span>
+                <span id="detail" style="visibility: hidden;">
+                    <p>Please check your password and email or maybe email is verified </p>
+                </span>
+            </form>
+        </div>
+
+        <script src="./js/script.js"> </script>
+        <script src="./js/routeLink.js"> </script>
+</body>
+</html>
