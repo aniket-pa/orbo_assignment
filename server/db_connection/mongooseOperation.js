@@ -23,6 +23,7 @@ async function updateRecord(userObject){
     const hashValue= genHash(userObject.pass,userObject.salt);
     //const hashValue=hashObject.hash;
     console.log(hashValue)
+    console.log("helo");
     const myQuery={_id:userObject.userid}
     const newValues={$set:{status:'completed',password:hashValue}}
     
